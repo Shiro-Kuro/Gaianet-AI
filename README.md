@@ -27,7 +27,7 @@ To run a Gaia node with the **Qwen2 0.5B Instruct** model, ensure your system me
 - **Storage**: 10GB
 
 **For Windows users**:
-* You need to install Ubuntu by enabaling wsl on your windows. 
+* You need to install Ubuntu by enabaling wsl on your windows, or run ubuntu/linux distro through VM like Virtualbox or VMware.
 
 **For Linux/VPS users**:
 * You are good to go and keep going through the following guide.
@@ -63,10 +63,10 @@ After installation, run this `source /root/.bashrc` or simply restart your termi
 ---
 
 ## 4. Config Gaia Node
-By running this command, you download **Qwen2 0.5B Instruct** model and initialize your Node:
+By running this command, by default you will download default **Llama-3.2-3B-Instruct-Q5_K_M** model and initialize your Node:
 
   ```bash
-gaianet init --config https://raw.githubusercontent.com/GaiaNet-AI/node-configs/main/qwen2-0.5b-instruct/config.json
+gaianet init
   ```
 
 ---
@@ -109,7 +109,7 @@ By running a Gaia Node, we are actually deploying an AI Agent with a specific AI
 2. Go to [Node Settings](https://www.gaianet.ai/setting/nodes).
 3. Click the three dots next to your active node and select **Join Domain**.
 4. Click on Next **Step**
-5. Search for the domain `pengu.gaia.domain`
+5. Search for the domain `llama.gaia.domains`
 
 ![image](https://github.com/user-attachments/assets/b96f4bf2-33af-4b8c-8491-96306371aae6)
 
@@ -118,7 +118,7 @@ By running a Gaia Node, we are actually deploying an AI Agent with a specific AI
 ---
 
 ## 8. Chat with Your Node
-To interact with your node and earn XP, visit: [Pengu Gaia Domain](https://pengu.gaia.domains)
+To interact with your node and earn XP, visit: [llama Gaia Domain](https://llama.gaia.domains)
 
 * You need **Credit Balance** to be able to chat with your node.
 * Everyday, Convert your **Gaiapoints** to **Credit Balance**.
@@ -136,7 +136,7 @@ To interact with your node and earn XP, visit: [Pengu Gaia Domain](https://pengu
 2. **Download the Python Script**:
    - Run:
      ```bash
-     curl -L -o gaiabot.py https://github.com/Shiro-Kuro/Gaianet-AI/blob/main/gaiabot.py
+     curl -L -o gaiabot.py https://github.com/Shiro-Kuro/Gaianet-AI/raw/main/gaiabot.py
      ```
 
 3. **Run the Script**:
@@ -154,9 +154,7 @@ To interact with your node and earn XP, visit: [Pengu Gaia Domain](https://pengu
 * To return the screen, enter command: `screen -r gaiabot`
 * To stop and kill the bot, press `CTRL+C` inside the screen & run this command: `screen -XS gaiabot quit`
 
-It might gives you failed attempts which is because of networks floods, as you can see in the picture that I may get a successfull response after 3 or more attempts
-
-![image](https://github.com/user-attachments/assets/71ce30c6-2c3d-44b5-a3f5-b2a7781062bb)
+It might gives you failed attempts which is because of networks floods, if all connections are stable it will generate the result after few failed attempts.
 
 
 ---
