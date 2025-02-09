@@ -63,7 +63,7 @@ After installation, run this `source /root/.bashrc` or simply restart your termi
 ---
 
 ## 4. Config Gaia Node
-By running this command, by default you will download default **Llama-3.2-3B-Instruct-Q5_K_M** model and initialize your Node:
+By running this command, by default you will download default **Llama-3.2-3B-Instruct** model and initialize your Node:
 
   ```bash
 gaianet init
