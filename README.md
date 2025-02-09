@@ -136,7 +136,7 @@ To interact with your node and earn XP, visit: [Pengu Gaia Domain](https://pengu
 2. **Download the Python Script**:
    - Run:
      ```bash
-     curl -L -o gaiabot.py https://github.com/0xmoei/Gaianet-AI/raw/main/gaiabot.py
+     curl -L -o gaiabot.py https://github.com/Shiro-Kuro/Gaianet-AI/blob/main/gaiabot.py
      ```
 
 3. **Run the Script**:
