@@ -30,7 +30,8 @@ To run a Gaia node with the **Llama-3.2-3B-Instruct** model, ensure your system 
 * You need to install Ubuntu by enabaling wsl on your windows, or run ubuntu/linux distro through VM like Virtualbox or VMware.
 
 **For Linux/VPS users**:
-* You are good to go and keep going through the following guide.
+* You are good to go and keep going through the following guide. (Less gaia node points with CPU only VPS)
+* If your VPS provider provides GPU, then take that sub.
 
 > If you are a VPS user, I recommend to install it on your Windows too, so you farm more **GaiaPoints**. The more your node is online, connected to a domain and chat with AI, the more you receive **Node Points** & **User Points**
 ---
