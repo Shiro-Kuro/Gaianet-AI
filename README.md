@@ -6,8 +6,8 @@ In this guide, we will go through setting up and running a Gaia AI node using th
 
 # Gaia Dashboard
 In Gaia XP program, we accumulate points by interacting with Gaia AI Agents and running Gaia nodes.
-1. Connect your wallet to [Gaia Dashboard](https://gaianet.ai/reward?invite_code=Rw1iGQ) and complete registration.
-2. Use this invite code to boost up your XP: `Rw1iGQ`
+1. Connect your wallet to [Gaia Dashboard](https://gaianet.ai/reward?invite_code=ReV7iv) and complete registration.
+2. Use this invite code to boost up your XP: `ReV7iv`
 3. Complete social tasks in [Rewards Summary](https://www.gaianet.ai/reward-summary)
 
 ---
@@ -27,7 +27,7 @@ To run a Gaia node with the **Qwen2 0.5B Instruct** model, ensure your system me
 - **Storage**: 10GB
 
 **For Windows users**:
-* You need to install Ubuntu by enabaling wsl on your windows. Follow this [Guide](https://github.com/0xmoei/Install-Linux-on-Windows).
+* You need to install Ubuntu by enabaling wsl on your windows. 
 
 **For Linux/VPS users**:
 * You are good to go and keep going through the following guide.
