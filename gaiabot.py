@@ -1,6 +1,5 @@
 # Title: GaiaAI Chatbot
 # The script will print the credit part and ask for the API key
-
 import requests
 import random
 import time
@@ -71,7 +70,7 @@ QUESTIONS = [
     "What is the Sapir-Whorf hypothesis, and does language shape thought?",
     "How do psychedelic substances alter perception and cognition?",
     "What is the nature of free will, and is it an illusion?",
-    "How does Gödel’s incompleteness theorem challenge mathematical logic?",
+    "How does Gödels incompleteness theorem challenge mathematical logic?",
     "What is the Riemann Hypothesis, and why is it unsolved?",
     "How does string theory attempt to unify physics?",
     "What is the AdS/CFT correspondence, and why is it significant?",
@@ -87,14 +86,14 @@ QUESTIONS = [
     "What are extremophiles, and what do they reveal about possible alien life?",
     "How does the Kardashev scale classify advanced civilizations?",
     "What is the Great Filter, and how does it relate to the Fermi Paradox?",
-    "How do Dyson spheres hypothetically harness a star’s energy?",
+    "How do Dyson spheres hypothetically harness a stars energy?",
     "What is the Wow! signal, and why is it mysterious?",
     "How does consciousness emerge from neural activity?",
     "What is the Hard Problem of Consciousness, and why is it controversial?",
     "How does quantum mechanics challenge classical determinism?",
     "What are quantum computers expected to achieve beyond classical computers?",
     "What is the role of spin in quantum mechanics?",
-    "How does Bell’s theorem prove quantum nonlocality?",
+    "How does Bells theorem prove quantum nonlocality?",
     "How does a neutrino telescope detect nearly massless particles?",
     "What are gravitational waves, and how were they first detected?",
     "How does nuclear fusion differ from fission, and why is it harder to achieve?",
@@ -119,7 +118,7 @@ QUESTIONS = [
     "What is the Pioneer anomaly, and how was it resolved?",
     "How does the Lagrange point allow stable orbits?",
     "How do cosmic rays influence planetary atmospheres?",
-    "What is Hawking’s Chronology Protection Conjecture?",
+    "What is Hawking Chronology Protection Conjecture?",
     "How does black hole thermodynamics relate entropy and gravity?",
     "How do Bose stars challenge current astrophysical models?",
     "What is the anthropic principle, and how does it shape cosmological theories?",
