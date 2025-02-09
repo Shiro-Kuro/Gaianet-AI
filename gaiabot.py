@@ -144,7 +144,7 @@ def chat_with_ai(api_key: str, question: str) -> str:
 
     for attempt in range(MAX_RETRIES):
         try:
-            logging.info(f"Attempt {attempt+1} for question: {question[:50]}...")
+            logging.info(f"Attempt {attempt+1} for question: {question[:100]}...")
             response = requests.post(
                 f"{BASE_URL}/v1/chat/completions",
                 headers=headers,
@@ -179,7 +179,7 @@ def run_bot(api_key: str):
                 elapsed = time.time() - start_time
 
                 # Print the entire response
-                print(f"Answer to '{question[:50]}...':\n{response}")
+                print(f"Answer to '{question[:100]}...':\n{response}")
 
                 logging.info(f"Received full response in {elapsed:.2f}s")
                 logging.info(f"Response length: {len(response)} characters")
