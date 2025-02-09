@@ -20,7 +20,7 @@ I will go through the complete process of earning **Node Points** and **User Poi
 * Chatting with the AI agent tied to the domain you've joined.
 
 ## 1. System Requirements
-To run a Gaia node with the **Qwen2 0.5B Instruct** model, ensure your system meets the following minimum requirements:
+To run a Gaia node with the **Llama-3.2-3B-Instruct** model, ensure your system meets the following minimum requirements:
 
 - **CPU**: 4 cores
 - **RAM**: 8GB
