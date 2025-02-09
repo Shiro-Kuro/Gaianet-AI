@@ -111,9 +111,6 @@ By running a Gaia Node, we are actually deploying an AI Agent with a specific AI
 3. Click the three dots next to your active node and select **Join Domain**.
 4. Click on Next **Step**
 5. Search for the domain `llama.gaia.domains`
-
-![image](https://github.com/user-attachments/assets/b96f4bf2-33af-4b8c-8491-96306371aae6)
-
 6. Click on the domain and complete the next steps.
 
 ---
